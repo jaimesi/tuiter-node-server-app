@@ -6,6 +6,8 @@ const createTuit = async (req, res) => {
     newTuit.dislikes = 0;
     newTuit.liked = false;
     newTuit.disliked = false;
+    newTuit.replies = 0;
+    newTuit.retuits = 0;
     newTuit.time = "now";
     newTuit.topic = "Tuiter";
     newTuit.title = "Jaime Si tuited something new";
